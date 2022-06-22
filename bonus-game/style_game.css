@@ -1,0 +1,110 @@
+/* General */
+
+.pt-20 {
+    padding-top: 20px;
+} 
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.container-fluid {
+    height: 100vh;
+    background-color: lightgreen;
+    position: relative;
+}
+
+.fake-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.fake-header .point {
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 900;
+    padding-left: 50px;
+}
+
+.fake-header .game {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.fake-header .row {
+    width: 100%;
+}
+
+.box-brown {
+    height: 25px;
+    background-color: rgb(108, 61, 38);
+    border-radius: 50px;
+}
+
+.box-green {
+    height: 25px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.box-orange {
+    height: 25px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 50px;
+}
+
+.image {
+    display: flex;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Regole Allineamenti Orizzontali*/
+
+.start {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+/* Regole Allineamenti Verticali*/
+
+.top {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
